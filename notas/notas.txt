@@ -1,0 +1,2 @@
+repositorio:carpeta donde van a haber proyectos o minis proyectos vinculados
+un lugar donde guardar el proyecto en la nube.

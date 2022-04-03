@@ -1,0 +1,84 @@
+body{
+    width: 100vw;
+    height:100vh;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.titulo{
+    color: #ff0000;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.subtitulo{
+    color:#ffffff;
+    font-size: 2.5em;
+}
+.boton{
+    background-color: transparent;
+    color:#808080;
+    border:solid 1px #808080;
+    min-width: 20%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;    
+}
+.boton:hover{
+    color:#ffffff;
+}
+.parte2{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-fotitos{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fotitos{
+    margin: 0 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.fotitos:hover{
+    border:solid 4px #ffffff;
+    
+}
+.fotito1{
+    background:url(https://img.buzzfeed.com/buzzfeed-static/static/2018-07/26/15/asset/buzzfeed-prod-web-01/sub-buzz-22007-1532631673-5.png?crop=826%3A828%3B0%2C0&downsize=900:*&output-format=auto&output-quality=auto);
+    background-size: cover;
+}
+.fotito2{
+    background:url(https://ih1.redbubble.net/image.618393699.1999/flat,1000x1000,075,f.u1.jpg);
+    background-size:cover ;
+    
+}
+.fotito3{
+    background:url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/1bdc9a33850498.56ba69ac2ba5b.png);
+    background-size:cover ;
+    
+}
+.fotito4{
+    background:url(https://ih1.redbubble.net/image.618380579.1473/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg);
+    background-size:cover ;
+    
+}
+.fotito5{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWJwjH0o-6F8IfbvLe96wXHvolIfho1CB22-I2b0b_6mbEulwzHUWMWKpZlY1yO6Re_A&usqp=CAU);
+    background-size:cover ;
+    
+}
